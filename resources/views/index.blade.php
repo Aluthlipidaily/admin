@@ -303,8 +303,7 @@ desired effect
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
-        @extends('index')
-        @section('content')
+
             
      
         <div style="overflow-x:auto;">
@@ -322,12 +321,12 @@ desired effect
   </thead>
   <tbody>
 
-    @foreach ($member as $row)
+
         
   
     <tr>
       <th scope="row">2</th>
-      <td>{{$row['mem_name_with_initials']}}</td>
+      <td>dfdf</td>
       <td>Otto</td>
       <td>@mdo</td>
       <td>fdfs</td>
@@ -336,8 +335,7 @@ desired effect
         <button class="btn btn-warning">Loans</button>
         <button class="btn btn-success">New Loan</button>
       </td>
-    @endforeach
-    @endsection
+
     </tr>
   </tbody>
 </table>
